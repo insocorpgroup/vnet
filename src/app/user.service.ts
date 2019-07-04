@@ -12,7 +12,6 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   getUser(model: any) {
-    console.log('Hello')
     const headers = new HttpHeaders();
     headers.append('Content-Type', 'application/json');
     return this.http.post('http://localhost:6002/getuserbyid',

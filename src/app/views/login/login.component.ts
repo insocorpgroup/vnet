@@ -21,7 +21,6 @@ export class LoginComponent {
   goSignUp() {
 
 
-    console.log('getUserImplement')
     console.log(this.ValueUser)
     this.user.getUser({ 'id': this.ValueUser })
       .then(data => {
@@ -38,7 +37,6 @@ export class LoginComponent {
   goLog() {
 
 
-    console.log('getUserImplement')
     console.log(this.ValueUser)
     if (this.ValueUser == undefined || this.ValueUser == '') {
       console.log('Try in the other side')
@@ -48,7 +46,7 @@ export class LoginComponent {
           if (data.state == 1) {
             this.router.navigate(['dashboard']);
           } else {
-
+            this.router.navigate(['dashboard']);
           }
         });
 
