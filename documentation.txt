@@ -1,0 +1,39 @@
+npm install -g @angular/cli
+ng new insocorp-angular-bootstrap-template
+cd insocorp-angular-bootstrap-template
+npm install
+npm install bootstrap --save
+npm install font-awesome --save
+ng serve
+
+
+Install angular
+https://angular.io/guide/setup-local
+Angular routing 
+scss
+
+
+Install bootstrap
+https://medium.com/@smarrerof/c%C3%B3mo-arrancar-un-proyecto-angular-6-utilizando-bootstrap-4-y-font-awesome-4-5322c834c117
+
+
+
+
+
+
+npm install --save angular-calendar date-fns	
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+npm install --save flatpickr angularx-flatpickr
+https://github.com/mattlewis92/angular-calendar#getting-started
+
+
+
+
+  //private modal: NgbModal
+
+
+
+
+
+https://ckeditor.com/docs/ckeditor5/latest/api/index.html
+npm install --save @ckeditor/ckeditor5-angular
